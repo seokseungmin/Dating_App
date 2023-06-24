@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mainColor">
+
+        <TextView
+            android:id="@+id/send_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/mainColor"
+            android:fontFamily="@font/font"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_alignBaseline="@+id/senderImage"
+            android:layout_marginRight="2dp"
+            android:layout_toLeftOf="@+id/senderImage"
+            android:layout_below="@+id/senderName"
+            android:text="보내는 메시지" />
+
+        <TextView
+            android:id="@+id/senderName"
+            android:text="이름"
+            android:fontFamily="@font/font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/senderImage"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/timeSender"
+            android:text="시간"
+            android:textColor="@color/black"
+            android:fontFamily="@font/font"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/senderImage"
+            android:layout_below="@+id/send_message_text"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:id="@+id/senderImage"
+            android:src="@drawable/sender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>

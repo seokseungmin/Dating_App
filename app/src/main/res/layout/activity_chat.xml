@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    tools:context=".message.ChatActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginLeft="130dp"
+        app:lottie_loop="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:lottie_rawRes="@raw/message_activity"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:lottie_autoPlay="true">
+    </com.airbnb.lottie.LottieAnimationView>
+
+    <!-- 대화 내용 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="125dp"
+        android:id="@+id/chat_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/input_layout" />
+
+    <!-- 입력 레이아웃 -->
+    <LinearLayout
+        android:id="@+id/input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_weight="25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/message_edit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+
+                android:background="@drawable/edit_background"
+                android:fontFamily="@font/font"
+                android:textSize="20sp"
+                android:hint="메시지를 입력하세요"
+                android:paddingStart="10dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="75"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/send_btn"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/edit_background"
+                android:fontFamily="@font/font"
+                android:textSize="20sp"
+                android:text="전송"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

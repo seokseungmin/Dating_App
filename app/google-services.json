@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207183630784",
+    "project_id": "winterproject-942d2",
+    "storage_bucket": "winterproject-942d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207183630784:android:71f07fb6df2bb5bfd93825",
+        "android_client_info": {
+          "package_name": "com.example.winterproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207183630784-qmh837cauq9ndlsak42pn6pemcounuro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCThI5Xu6-aByxdm2lx1RewSCo7eUIWIOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207183630784-qmh837cauq9ndlsak42pn6pemcounuro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
