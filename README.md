@@ -19,6 +19,10 @@
 ![Firebase](https://skillicons.dev/icons?i=firebase)
 ![Android Studio](https://skillicons.dev/icons?i=androidstudio)
 
+- Kotlin: 안드로이드 앱 개발을 위한 현대적이고 안전한 프로그래밍 언어로, 간결하고 표현력이 뛰어난 코드를 작성할 수 있습니다.
+- Firebase: 구글의 모바일 플랫폼으로, 실시간 데이터베이스, 백엔드 기능, 사용자 인증 등을 제공하여 앱 개발을 간소화합니다.
+- Android Studio: 안드로이드 앱 개발을 위한 공식 통합 개발 환경(IDE)으로, Kotlin과 완벽하게 호환되며 다양한 개발 도구와 시뮬레이션 기능을 제공합니다.
+
 ## 기능 / 작업
 
 - 메인 슬라이딩 화면 구현
