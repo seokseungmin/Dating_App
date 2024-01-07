@@ -32,7 +32,7 @@
 - 쪽지 보내기 및 채팅방 시스템 구현
 - 로티 애니메이션을 활용한 화면 꾸미기
 
-# 개발환경
+# 개발 환경
 
 - Android Studio: Compatible with Arctic Fox (2020.3.1) and later versions.
 - Kotlin: Uses the latest stable version.
